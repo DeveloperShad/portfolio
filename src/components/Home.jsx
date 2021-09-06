@@ -10,18 +10,19 @@ const Home = () => {
     const menu_right = ['Home', 'About', 'Skills', 'Projects', 'Contact']
    
 
-    const [Width, setWidth] = useState(window.innerWidth)
+    const [Width, ] = useState(window.innerWidth)
     const [State, setState] = useState(true)
     const [Toggle, setToggle] = useState(false)
    
     useEffect(() => {
+        
         function handleResize() {
            
         }
         handleClick()
     
         window.addEventListener('resize',handleResize)
-    }, [])
+    }, )
 
 
     function handleClick (){
@@ -69,7 +70,7 @@ const Home = () => {
             <section >
                 <div className="hero">
                     <div className="hero_item_1">
-                        <img src="/profile-pic.jpg" alt="Profile Photo" />
+                        <img src="/profile-pic.jpg" alt="Anwar Shad" />
                     </div>
                     <div className="hero_item_2">
                         <p>Hello, my name is</p>

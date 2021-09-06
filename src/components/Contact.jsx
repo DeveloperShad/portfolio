@@ -49,9 +49,9 @@ const Contact = () => {
                                 {
                                     social_media.map(({ icon, title, link }, index) => (
                                         <div className="social_icon" key={index}>
-                                            <a href={link} target="_blank"><i className={icon}></i></a>
+                                            <a href={link} target="_blank" rel="noreferrer"><i className={icon}></i></a>
                                             {/* <a href={link} target="_blank">{title} :</a> */}
-                                            <a href={link} target="_blank">{title}</a>
+                                            <a href={link} target="_blank" rel="noreferrer">{title}</a>
                                           
                                         </div>
                                     ))
@@ -76,7 +76,7 @@ const Contact = () => {
                                     </textarea>
                                 </div>
                                 <div className="submit_btn">
-                                    <a href="#">Send Message</a>
+                                    <a href="alid.md">Send Message</a>
                                 </div>
                             </div>
                         </div>
