@@ -627,6 +627,7 @@ footer span {
         font-size: 25px;
         font-weight: 800;
         color: white;
+        width: 50px;
     }
 
     #hamburger{
@@ -859,13 +860,13 @@ footer span {
         padding: 5px 0;
     }
     nav .menu_right {
-        gap: 10%;
+        gap: 8%;
     }
     #logo h1 {
         font-size: 30px;
     }
     nav .menu_right a {
-        font-size: 14px;
+        font-size: 16px;
     }
     section .hero {
         gap: 20px;

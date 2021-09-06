@@ -1,5 +1,5 @@
 // div.item-$*4
-import React, { useEffect, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import About from './About'
 import Contact from './Contact'
 import './home.css'
@@ -10,19 +10,19 @@ const Home = () => {
     const menu_right = ['Home', 'About', 'Skills', 'Projects', 'Contact']
    
 
-    const [Width, ] = useState(window.innerWidth)
+    let  Width = useRef(window.innerWidth)
+    Width = Width.current
     const [State, setState] = useState(true)
-    const [Toggle, setToggle] = useState(false)
+    const [Toggle, setToggle] = useState(true)
    
-    useEffect(() => {
-        
-        function handleResize() {
-           
-        }
-        handleClick()
     
-        window.addEventListener('resize',handleResize)
-    }, )
+       
+        window.addEventListener('resize',function(){
+           
+           
+           
+        })
+   
 
 
     function handleClick (){
@@ -35,13 +35,13 @@ const Home = () => {
             setToggle(false)
         }
     }
-   
+  
 
    
     return (
         <>
             <header >
-               
+               {/* <h1>Shadddd :{Width}</h1> */}
                 <nav>
                     <div className="menu menu_left" id="menu_left">
                         <div id="logo"><a href="#logo"><h1>Anwar <span>Shad.</span></h1></a></div>
