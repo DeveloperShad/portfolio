@@ -572,12 +572,12 @@ section .hero {
 }
 
 .form .form_input .name input {
-    padding: 5px 0;
+    padding: 10px 0;
     width: 200px;
 }
 
 .form .form_input .subject input {
-    padding: 5px 0;
+    padding: 10px 0;
     width: 410px;
 }
 
@@ -828,7 +828,7 @@ footer span {
     }
     .form .form_input .name input {
         padding: 5px 0;
-        width:43vw;
+        width:44vw;
     }
     .form .form_input .subject input {
         padding: 5px 0;
