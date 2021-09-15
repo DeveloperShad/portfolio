@@ -5,7 +5,7 @@ const Projects = () => {
 
     const project = [
         {
-            banner: 'https://raw.githubusercontent.com/ankitbajpai1607/FoodXprs_clone/master/Images/landingPage.png',
+            banner: 'https://github.com/DeveloperShad/portfolio/blob/master/public/images/FoodXprs%20Lunch%20Services%20Pvt%20Ltd%20_%20Hyderabad.png?raw=true',
             title: 'FoodXprs',
             description: 'FoodXprs Lunch Services Pvt Ltd provides Lunch Services to meet the healthy lunch requirements of employees and professionals who are unable to prepare it themselves lunch due to hectic mornings.',
             tech_stack: 'Tech Stack',
@@ -21,9 +21,9 @@ const Projects = () => {
         },
 
         {
-            banner: 'https://github.com/developershad/COVID1-19/raw/develop/images/covid-19%20home.PNG',
+            banner: 'https://github.com/DeveloperShad/portfolio/blob/master/public/images/COVID-19%20World%20Data.png?raw=true',
             title: 'COVID-19 World',
-            description: 'COVID-19 WORLD provide all data of Coronavirus worldwide means user can see all COVID-19 relate data of any country and get updates in this COVID-19 pandemic situation.',
+            description: 'COVID-19 World provide all data of Coronavirus worldwide means user can see all COVID-19 relate data of any country and get updates in this COVID-19 pandemic situation.',
             tech_stack: 'Tech Stack',
             icon1: 'fab fa-html5',
             icon_title1: 'Html',
@@ -37,7 +37,7 @@ const Projects = () => {
         },
 
         {
-            banner: 'https://raw.githubusercontent.com/ajcodeskills/Mentimeter_Clone/main/Project/home_img/mentimeter-home.PNG',
+            banner: 'https://github.com/DeveloperShad/portfolio/blob/master/public/images/mentimeter%20home.png?raw=true',
             title: 'Mentimeter',
             description: 'Mentimeter** is an easy-to-use presentation software used by more than 25 million people. With Mentimeter you can create fun and interactive presentations.',
             tech_stack: 'Tech Stack',
@@ -53,9 +53,9 @@ const Projects = () => {
         },
 
         {
-            banner: 'https://raw.githubusercontent.com/ankitbajpai1607/FoodXprs_clone/master/Images/landingPage.png',
-            title: 'FoodXprs',
-            description: 'FoodXprs Lunch Services Pvt Ltd provides Lunch Services to meet the healthy lunch requirements of employees and professionals who are unable to prepare it themselves lunch due to hectic mornings.',
+            banner: 'https://github.com/DeveloperShad/portfolio/blob/master/public/images/Premier%20League%20Clone.png?raw=true',
+            title: 'Premier League',
+            description: 'Premier League website is the official website of soccer player  which provides all live matches and score so users can get all the news and update related to premier league.',
             tech_stack: 'Tech Stack',
             icon1: 'fab fa-html5',
             icon_title1: 'Html',
@@ -63,8 +63,8 @@ const Projects = () => {
             icon_title2: 'Css',
             icon3: 'fab fa-js',
             icon_title3: 'JS',
-            demo_url: 'https://foodxprs.netlify.app/',
-            git_url: 'https://github.com/ankitbajpai1607/FoodXprs_clone'
+            demo_url: 'https://cloning-premierleague.netlify.app/',
+            git_url: 'https://github.com/Mangeshbk/Premier-League-clone'
 
         },
 
@@ -114,8 +114,8 @@ const Projects = () => {
                                         </div>
                                     </div>
                                     <div className="redirect_btn">
-                                        <a href={demo_url}>Visit</a>
-                                        <a href={git_url}>Code</a>
+                                        <a href={demo_url} target="_blank">visit</a>
+                                        <a href={git_url} target="_blank">code</a>
                                     </div>
                                 </div>
                             ))
