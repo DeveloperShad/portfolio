@@ -19,7 +19,7 @@ const Contact = () => {
 
     const handleSubmit = async()=>{
         if(name && email && subject && message){
-            const response = await fetch('https://myportfolio876-default-rtdb.firebaseio.com/contactForm.json',{
+         await fetch('https://myportfolio876-default-rtdb.firebaseio.com/contactForm.json',{
                 method:"POST",
                 headers:{
                     "Content-Type":"application/json"
@@ -27,8 +27,9 @@ const Contact = () => {
                 body:JSON.stringify({name,email,subject,message})
             })
 
-            const data = await response.json()
+            // const data = await response.json()
             // console.log(data)
+
             alert('Thankyou for Submitting the form')
             setFormData(init)
             
@@ -110,7 +111,7 @@ const Contact = () => {
                                     <input type="text" onChange={handleChange} value={subject} name="subject" id="" placeholder="Subject" />
                                 </div>
                                 <div className="message">
-                                    <textarea onChange={handleChange} value={message} name="message" id="" cols="55" rows="3" placeholder="Message">
+                                    <textarea onChange={handleChange} value={message} name="message" id="" cols="57" rows="4" placeholder="Message">
                                     </textarea>
                                 </div>
                                 <div className="submit_btn">

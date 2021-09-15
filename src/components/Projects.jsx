@@ -114,8 +114,8 @@ const Projects = () => {
                                         </div>
                                     </div>
                                     <div className="redirect_btn">
-                                        <a href={demo_url} target="_blank">visit</a>
-                                        <a href={git_url} target="_blank">code</a>
+                                        <a href={demo_url} target="_blank" rel="noreferrer">visit</a>
+                                        <a href={git_url} target="_blank" rel="noreferrer">code</a>
                                     </div>
                                 </div>
                             ))

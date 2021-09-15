@@ -21,8 +21,12 @@ body {
 header {
     background-color: crimson;
     padding: 8px 0;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
+}
+
+.mobile_menu_container{
+    display: none;
 }
 
 nav {
@@ -48,9 +52,7 @@ nav .menu_right {
     gap: 12%;
 }
 
-#span{
-    display: none;
-}
+
 #logo h1 {
     color: #fff;
     font-size: 35px;
@@ -632,62 +634,46 @@ footer span {
         padding: 5px 10px;
     }
 
-    #span{
-        display: flex;
-        cursor: pointer;
+ 
+    nav{
+        display: none;
     }
 
-    #span i{
-        font-size: 25px;
-        font-weight: 800;
-        color: white;
-        width: 50px;
-    }
-
-    #hamburger{
+    .mobile_menu_container{
         display: flex;
-        /* justify-content: center; */
-        align-items: flex-start;
         flex-direction: column;
+        gap: 10px;
+    }
+
+    .mobile_menu_container .mobile_menu_bar{
+
+    }
+    .mobile_menu_container .mobile_menu_bar i{
+        font-size: 35px;
         color: white;
-        font-size: 16px;
-        cursor: pointer;
-        position: fixed;
+    }
+    .mobile_menu_container .mobile_menu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
         gap: 5px;
-        margin: 35px 0 0 0px;
-        /* background: #111111; */
+        margin-top: 50px;
+        
+    }
+
+    .mobile_menu_container .mobile_menu a{
+        text-decoration: none;
+       color:crimson;
+       font-weight: 700;
         
     }
 
   
-     #logo a h1{
-        font-size: 30px;
-        
-    }
-    #menu_left{
-        display: none;
-    }
-
-    nav{
-        display: flex;
-        justify-content: space-between;
-    }
-    nav .menu_right{
-        display: none;
-    }
-    /* nav .menu_right {
-        gap: 10%;
-        flex-direction: column;
-    }
-    #logo h1 {
-        font-size: 20px;
-    }
-    nav .menu_right a {
-        font-size: 14px;
-    } */
+   
+  
     section .hero {
         gap: 15px;
-        height: 50vh;
+        height: 70vh;
         min-height: 300px;
     }
     .hero_item_1 img {
@@ -841,26 +827,30 @@ footer span {
     }
 
  
-   
+ 
+
+
     .form .form_input .name {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
         gap: 10px;
     }
     .form .form_input .name input {
-        padding: 5px 0;
+        padding: 10px 0;
         width:44vw;
     }
     .form .form_input .subject input {
-        padding: 5px 0;
+        padding: 10px 0;
         width: 90vw;
     }
     .form .form_input .message textarea {
         width: 90vw;
     }
     .form .form_input .message {}
-    .form .form_input .submit_btn {}
+    .form .form_input .submit_btn {
+        margin-top: 10px;
+    }
     .form .form_input .submit_btn a {
         color: white;
         background: crimson;
@@ -868,6 +858,7 @@ footer span {
         border-radius: 5px;
         border: 2px solid crimson;
         font-size: 15px;
+       
     }
 
     footer{
@@ -1025,11 +1016,12 @@ footer span {
         gap: 10px;
     }
     .form .form_input .name input {
-        padding: 5px 0;
+        padding: 10px 0;
         width: 24.3vw;
+
     }
     .form .form_input .subject input {
-        padding: 5px 0;
+        padding: 10px 0;
         width: 50vw;
     }
     .form .form_input .message textarea {
@@ -1073,7 +1065,11 @@ footer span {
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .form_input input{
+        padding: 10px 0;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 

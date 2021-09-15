@@ -20,7 +20,7 @@ const About = () => {
                         </div>
                         <div className="description">
                             <h2>I'm Anwar Shad and I'm a Full Stack <span>Web Developer</span></h2>
-                            <p>In 2020 I have completed my graduation with B.Sc and turn my career into coding and now I am a MERN Stack developer Strong in Javascript & React Love to convert ideas into reality with my coding skills and want to associate with a reputed organization. Excellent team player with great interpersonal skills. And looking to enhance my skills.
+                            <p>In 2020 I have completed my graduation with B.Sc and turn my career into coding and now I am a MERN Stack developer Strong in Javascript & React Love to convert ideas into reality with my coding skills Excellent team player with great interpersonal skills. want to associate with a reputed organization. And looking to enhance my skills.
                                 {/* <br />
                                 I was a very techy guy from my childhood and I loved to solve different gadgets problems. That's why I got lots of appreciation from others which gave me more motivation towards this field.
                                 But I did not pursue B.Tech due to family problems. Instead, I explored different tech stacks as a hobby And learned wordpress and worked for some clients as well.
