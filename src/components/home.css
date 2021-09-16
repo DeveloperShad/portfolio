@@ -549,11 +549,12 @@ section .hero {
     flex-wrap: wrap;
 }
 
-.contact .contact_form_container .contact_detail .social_media .social_icon :nth-child(3) {
+.contact .contact_form_container .contact_detail .social_media .social_icon a {
     /* margin: 0 auto 0 0; */
     /* display: flex; */
     /* justify-self:end; */
     /* align-self: center; */
+    color: black;
 }
 
 .contact .contact_form_container .contact_detail .social_media .social_icon i {
@@ -588,18 +589,39 @@ section .hero {
 }
 
 .form .form_input .name input {
-    padding: 10px 0;
+    padding: 10px 10px;
     width: 200px;
 }
 
 .form .form_input .subject input {
-    padding: 10px 0;
+    padding: 10px 10px;
     width: 410px;
 }
 
-.form .form_input .message textarea {}
+.form .form_input .message textarea {
+    padding: 30px 10px;
+    width: 410px;
+}
 
-.form .form_input .submit_btn {}
+
+
+.form .form_input .submit_btn {
+    margin-top: 10px;
+}
+
+.thankyou {
+    display: flex;
+    /* width: 75vw; */
+    /* background: #111111; */
+    padding: 5px;
+}
+.thankyou p{
+    /* color: white; */
+}
+.thankyou p i{
+    color: crimson;
+    font-size: 25px;
+}
 
 .form .form_input .submit_btn a {
     color: white;
@@ -656,15 +678,22 @@ footer span {
         position: absolute;
         display: flex;
         flex-direction: column;
-        gap: 5px;
-        margin-top: 50px;
+      
+        /* gap: 5px; */
+        margin-top: 40px;
+        margin-left: -10px;
+        padding:0px 10px 0px 10px;
+        /* background: #111111; */
+        background: crimson;
         
     }
 
     .mobile_menu_container .mobile_menu a{
         text-decoration: none;
-       color:crimson;
+        color: white;
+        /* color: crimson; */
        font-weight: 700;
+       padding: 5px 10px 10px 10px;
         
     }
 
@@ -837,11 +866,11 @@ footer span {
         gap: 10px;
     }
     .form .form_input .name input {
-        padding: 10px 0;
+        /* padding: 10px 10px; */
         width:44vw;
     }
     .form .form_input .subject input {
-        padding: 10px 0;
+        /* padding: 10px 10px; */
         width: 90vw;
     }
     .form .form_input .message textarea {
@@ -1016,12 +1045,12 @@ footer span {
         gap: 10px;
     }
     .form .form_input .name input {
-        padding: 10px 0;
+        /* padding: 10px 10px; */
         width: 24.3vw;
 
     }
     .form .form_input .subject input {
-        padding: 10px 0;
+        /* padding: 10px 10px; */
         width: 50vw;
     }
     .form .form_input .message textarea {

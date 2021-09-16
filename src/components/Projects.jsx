@@ -32,7 +32,7 @@ const Projects = () => {
             icon3: 'fab fa-js',
             icon_title3: 'JS',
             demo_url: 'https://covid-19world.netlify.app/',
-            git_url: 'https://github.com/developershad/COVID1-19'
+            git_url: 'https://github.com/developershad/COVID-19'
 
         },
 
@@ -79,7 +79,7 @@ const Projects = () => {
                         <h2>Projects</h2>
                         <div className="project_subtitle">
                             <span>&#8212;</span>
-                            <h3>projects I worked</h3>
+                            <h3>I have worked on</h3>
                             <span> &#8212;</span>
                         </div>
                     </div>

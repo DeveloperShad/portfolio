@@ -47,7 +47,7 @@ const Skills = () => {
                         <h2>Skills & Tools</h2>
                         <div className="what_i_know">
                             <span>&#8212;</span>
-                            <h3> what I know </h3>
+                            <h3> What I know </h3>
                             <span> &#8212;</span>
                         </div>
                     </div>
