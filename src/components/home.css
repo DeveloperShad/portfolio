@@ -559,6 +559,10 @@ section .hero {
 
 .contact .contact_form_container .contact_detail .social_media .social_icon i {
     font-size: 25px;
+    width: 20px;
+}
+.social_icon :nth-last-child(1){
+    letter-spacing: 1.5px;
 }
 
 .form {
@@ -668,11 +672,12 @@ footer span {
     }
 
     .mobile_menu_container .mobile_menu_bar{
-
+        /* cursor: pointer; */
     }
     .mobile_menu_container .mobile_menu_bar i{
         font-size: 35px;
         color: white;
+        cursor: pointer;
     }
     .mobile_menu_container .mobile_menu{
         position: absolute;

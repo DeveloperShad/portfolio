@@ -45,7 +45,7 @@ const Navbar = () => {
                     </nav>
 
                     <div className="mobile_menu_container">
-                        <div className="mobile_menu_bar"  onClick={handleClick}>
+                        <div className="mobile_menu_bar"  >
                             {Toggle ? <i className="fas fa-times" onClick={handleClick}></i> : <i className="fas fa-bars" onClick={handleClick}></i>}
                         </div>
                         <div div className="mobile_menu">
