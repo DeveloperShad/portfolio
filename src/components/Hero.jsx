@@ -17,7 +17,7 @@ const Hero = () => {
                     <div className="hero_item_4">
                         <p>And I'm a Full Stack <span>Web Developer</span></p>
                     </div>
-                    <div className="hero_item_5"><a href="https://drive.google.com/file/d/1m3_aT-Zf7Cw6_qQFaxJ_ZBKbzVZbDzBT/view?usp=sharing" target="_blank" download>Resume <i className="fas fa-cloud-download-alt"></i></a></div>
+                    <div className="hero_item_5"><a href="https://drive.google.com/file/d/1m3_aT-Zf7Cw6_qQFaxJ_ZBKbzVZbDzBT/view?usp=sharing" target="_blank" rel="noreferrer" download>Resume <i className="fas fa-cloud-download-alt"></i></a></div>
                 </div>
             </section>
     )
